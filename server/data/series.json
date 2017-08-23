@@ -1,102 +1,482 @@
 [
   {
     "date": "2016-01",
-    "value": 18418000,
-    "goal": 17929000
+    "value": 4950,
+    "goal": 6460,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-01",
+    "value": 6059,
+    "goal": 4667,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-01",
+    "value": 8942,
+    "goal": 7041,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-01",
+    "value": 8794,
+    "goal": 6760,
+    "country": "Spain"
   },
   {
     "date": "2016-02",
-    "value": 18592000,
-    "goal": 18351000
+    "value": 5464,
+    "goal": 4313,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-02",
+    "value": 4760,
+    "goal": 6704,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-02",
+    "value": 3595,
+    "goal": 8445,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-02",
+    "value": 4279,
+    "goal": 9027,
+    "country": "Spain"
   },
   {
     "date": "2016-03",
-    "value": 21362000,
-    "goal": 19410000
+    "value": 6852,
+    "goal": 5913,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-03",
+    "value": 7654,
+    "goal": 7754,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-03",
+    "value": 7094,
+    "goal": 6086,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-03",
+    "value": 3951,
+    "goal": 9553,
+    "country": "Spain"
   },
   {
     "date": "2016-04",
-    "value": 19617000,
-    "goal": 18649000
+    "value": 3730,
+    "goal": 4008,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-04",
+    "value": 9386,
+    "goal": 9544,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-04",
+    "value": 5371,
+    "goal": 3655,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-04",
+    "value": 9455,
+    "goal": 8717,
+    "country": "Spain"
   },
   {
     "date": "2016-05",
-    "value": 19291000,
-    "goal": 20865000
+    "value": 9972,
+    "goal": 9478,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-05",
+    "value": 9299,
+    "goal": 5997,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-05",
+    "value": 4060,
+    "goal": 8748,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-05",
+    "value": 9787,
+    "goal": 9920,
+    "country": "Spain"
   },
   {
     "date": "2016-06",
-    "value": 19526000,
-    "goal": 18136000
+    "value": 8183,
+    "goal": 9493,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-06",
+    "value": 3745,
+    "goal": 8706,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-06",
+    "value": 7138,
+    "goal": 7759,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-06",
+    "value": 5306,
+    "goal": 7058,
+    "country": "Spain"
   },
   {
     "date": "2016-07",
-    "value": 9123500,
-    "goal": 9649500
+    "value": 7937,
+    "goal": 7909,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-07",
+    "value": 4297,
+    "goal": 8786,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-07",
+    "value": 4117,
+    "goal": 9490,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-07",
+    "value": 7542,
+    "goal": 8998,
+    "country": "Spain"
   },
   {
     "date": "2016-08",
-    "value": 17298000,
-    "goal": 20075000
+    "value": 7933,
+    "goal": 3205,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-08",
+    "value": 5877,
+    "goal": 7015,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-08",
+    "value": 7151,
+    "goal": 5512,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-08",
+    "value": 9728,
+    "goal": 8338,
+    "country": "Spain"
   },
   {
     "date": "2016-09",
-    "value": 19000000,
-    "goal": 19704000
+    "value": 6404,
+    "goal": 7753,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-09",
+    "value": 5227,
+    "goal": 9630,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-09",
+    "value": 3959,
+    "goal": 8276,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-09",
+    "value": 8264,
+    "goal": 7594,
+    "country": "Spain"
   },
   {
     "date": "2016-10",
-    "value": 18918000,
-    "goal": 18583000
+    "value": 8173,
+    "goal": 6618,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-10",
+    "value": 5368,
+    "goal": 4416,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-10",
+    "value": 5090,
+    "goal": 4367,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-10",
+    "value": 7538,
+    "goal": 4991,
+    "country": "Spain"
   },
   {
     "date": "2016-11",
-    "value": 25983000,
-    "goal": 27403000
+    "value": 6634,
+    "goal": 5019,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-11",
+    "value": 5004,
+    "goal": 9817,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-11",
+    "value": 7235,
+    "goal": 3383,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-11",
+    "value": 4275,
+    "goal": 7273,
+    "country": "Spain"
   },
   {
     "date": "2016-12",
-    "value": 29731000,
-    "goal": 27504000
+    "value": 9000,
+    "goal": 3798,
+    "country": "Finland"
+  },
+  {
+    "date": "2016-12",
+    "value": 3536,
+    "goal": 3215,
+    "country": "Denmark"
+  },
+  {
+    "date": "2016-12",
+    "value": 4049,
+    "goal": 6523,
+    "country": "Germany"
+  },
+  {
+    "date": "2016-12",
+    "value": 5974,
+    "goal": 4362,
+    "country": "Spain"
   },
   {
     "date": "2017-01",
-    "value": 28092000,
-    "goal": 28190000
+    "value": 6644,
+    "goal": 5222,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-01",
+    "value": 6046,
+    "goal": 6472,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-01",
+    "value": 4824,
+    "goal": 7024,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-01",
+    "value": 4972,
+    "goal": 6394,
+    "country": "Spain"
   },
   {
     "date": "2017-02",
-    "value": 27396000,
-    "goal": 26835000
+    "value": 4735,
+    "goal": 8756,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-02",
+    "value": 3186,
+    "goal": 8348,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-02",
+    "value": 8512,
+    "goal": 6764,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-02",
+    "value": 3001,
+    "goal": 9045,
+    "country": "Spain"
   },
   {
     "date": "2017-03",
-    "value": 17929000,
-    "goal": 17731000
+    "value": 3429,
+    "goal": 9891,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-03",
+    "value": 9845,
+    "goal": 8974,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-03",
+    "value": 3396,
+    "goal": 9686,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-03",
+    "value": 9067,
+    "goal": 7109,
+    "country": "Spain"
   },
   {
     "date": "2017-04",
-    "value": 15116000,
-    "goal": 21007000
+    "value": 5646,
+    "goal": 3489,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-04",
+    "value": 3407,
+    "goal": 4487,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-04",
+    "value": 3614,
+    "goal": 5340,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-04",
+    "value": 9266,
+    "goal": 5712,
+    "country": "Spain"
   },
   {
     "date": "2017-05",
-    "value": 8497000,
-    "goal": 13027000
+    "value": 6168,
+    "goal": 6724,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-05",
+    "value": 8782,
+    "goal": 5161,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-05",
+    "value": 5090,
+    "goal": 5846,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-05",
+    "value": 5642,
+    "goal": 9218,
+    "country": "Spain"
   },
   {
     "date": "2017-06",
-    "value": 15579000,
-    "goal": 18185000
+    "value": 7984,
+    "goal": 6864,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-06",
+    "value": 8497,
+    "goal": 6999,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-06",
+    "value": 7093,
+    "goal": 8368,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-06",
+    "value": 5867,
+    "goal": 9505,
+    "country": "Spain"
   },
   {
     "date": "2017-07",
-    "value": 14202000,
-    "goal": 20374000
+    "value": 4879,
+    "goal": 3736,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-07",
+    "value": 9881,
+    "goal": 3866,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-07",
+    "value": 3195,
+    "goal": 9588,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-07",
+    "value": 5947,
+    "goal": 3428,
+    "country": "Spain"
   },
   {
     "date": "2017-08",
-    "value": 14010000,
-    "goal": 18797000
+    "value": 7451,
+    "goal": 6155,
+    "country": "Finland"
+  },
+  {
+    "date": "2017-08",
+    "value": 3636,
+    "goal": 4378,
+    "country": "Denmark"
+  },
+  {
+    "date": "2017-08",
+    "value": 7987,
+    "goal": 6995,
+    "country": "Germany"
+  },
+  {
+    "date": "2017-08",
+    "value": 3112,
+    "goal": 5035,
+    "country": "Spain"
   }
 ]
