@@ -4,6 +4,14 @@
 This repository contains a simple React project for completing a short coding assignment. Read the detailed instructions below, implement the required functionality in [`client/ChartWidget/index.jsx`](client/ChartWidget/index.jsx). Create a pull request with your solution when you are satisfied with your work.
 
 ## Assignment
+Visualize the data provided by the backend in [`server/routes/series.js`](server/routes/series.js). You can also modify the backend to suit your needs. Below is a list of ideas to get you started. You can implement one or several of these, or come up with your own ideas.
+* A chart showing the values per month
+* An indicator showing the values for the current month
+* An indicator showing the values compared to the previous month
+* A list with values per country, sorted by some criteria
+* A toggle for showing values per month or cumulative values this year
+* A toggle for showing values per country or the total value per month
+
 Implement a chart using data provided by the backend in [`server/routes/series.js`](server/routes/series.js). You can also modify the backend to suit your needs.
 
 ### Coding
@@ -11,9 +19,6 @@ The starting point of your solutions should be [`client/ChartWidget/index.jsx`](
 
 ### Testing
 There is test skeleton in [`client/__tests__/ChartWidget.spec.jsx`](client/__tests__/ChartWidget.spec.jsx). Improve these tests to demonstrate the correctness of your solution. The tests can be run with the command ```npm test```.
-
-### Extra Credit
-What other information, in addition to number of employees, can be gathered from the source JSON? Add more information to the output array and adjust the tests accordingly.
 
 ## External Documentation
 * http://lodash.com/docs
