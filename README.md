@@ -11,6 +11,8 @@ Visualize the data provided by the backend in [`server/routes/series.js`](server
 * A toggle for showing values per month or cumulative values this year
 * A toggle for showing values per country or the total value per month
 
+![Example dashboard](dashboard.png)
+
 ### Coding
 The starting point of your solutions should be one of the widgets in [`client`](client), but feel free to organize your code as you see fit. Focus on writing maintainable and easy to understand code over performance optimization. Lodash is already part of the project, but feel free to add new dependencies when needed.
 
