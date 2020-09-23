@@ -4,4 +4,22 @@
   background-color: @widget-background-color;
   color: @widget-color;
   padding: @padding;
+  order: 2;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn {
+  padding: 4px;
+  font-size: .9rem;
+  border: 1px solid #61575d;
+  background-color: #432e3b;
+  color: #c4bec2;
+
+  &:focus {
+    outline: none;
+    /* in real project would be better to add a script, to support a11y */
+  }
 }

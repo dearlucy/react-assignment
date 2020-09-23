@@ -12,40 +12,44 @@ describe('GET /series', () => {
   it('filters series with from', async () => {
     await request(app)
       .get('/series')
-      .query({ from: '2017-08' })
+      .query({ from: '2020-08' })
       .expect(200, [
-        { date: '2017-08', value: 7451, goal: 6155, country: 'Finland' },
-        { date: '2017-08', value: 3636, goal: 4378, country: 'Denmark' },
-        { date: '2017-08', value: 7987, goal: 6995, country: 'Germany' },
-        { date: '2017-08', value: 3112, goal: 5035, country: 'Spain' }
+        { date: '2020-08', value: '4898', goal: '7566', country: 'Finland' },
+        { date: '2020-08', value: '7693', goal: '8883', country: 'Denmark' },
+        { date: '2020-08', value: '9540', goal: '5408', country: 'Germany' },
+        { date: '2020-08', value: '5030', goal: '4808', country: 'Spain' },
+        { date: '2020-09', value: '4176', goal: '7615', country: 'Finland' },
+        { date: '2020-09', value: '3415', goal: '7328', country: 'Denmark' },
+        { date: '2020-09', value: '6822', goal: '6626', country: 'Germany' },
+        { date: '2020-09', value: '6882', goal: '3407', country: 'Spain' }
       ]);
   });
 
   it('filters series with to', async () => {
     await request(app)
       .get('/series')
-      .query({ to: '2016-01' })
+      .query({ to: '2019-01' })
       .expect(200, [
-        { date: '2016-01', value: 4950, goal: 6460, country: 'Finland' },
-        { date: '2016-01', value: 6059, goal: 4667, country: 'Denmark' },
-        { date: '2016-01', value: 8942, goal: 7041, country: 'Germany' },
-        { date: '2016-01', value: 8794, goal: 6760, country: 'Spain' }
+        { date: '2019-01', value: '4236', goal: '8086', country: 'Finland' },
+        { date: '2019-01', value: '5145', goal: '5649', country: 'Denmark' },
+        { date: '2019-01', value: '3608', goal: '6054', country: 'Germany' },
+        { date: '2019-01', value: '6302', goal: '7916', country: 'Spain' }
       ]);
   });
 
   it('filters series with from and to', async () => {
     await request(app)
       .get('/series')
-      .query({ from: '2016-12', to: '2017-01' })
+      .query({ from: '2019-12', to: '2020-01' })
       .expect(200, [
-        { date: '2016-12', value: 9000, goal: 3798, country: 'Finland' },
-        { date: '2016-12', value: 3536, goal: 3215, country: 'Denmark' },
-        { date: '2016-12', value: 4049, goal: 6523, country: 'Germany' },
-        { date: '2016-12', value: 5974, goal: 4362, country: 'Spain' },
-        { date: '2017-01', value: 6644, goal: 5222, country: 'Finland' },
-        { date: '2017-01', value: 6046, goal: 6472, country: 'Denmark' },
-        { date: '2017-01', value: 4824, goal: 7024, country: 'Germany' },
-        { date: '2017-01', value: 4972, goal: 6394, country: 'Spain' }
+        { date: '2019-12', value: '3232', goal: '4669', country: 'Finland' },
+        { date: '2019-12', value: '9981', goal: '3934', country: 'Denmark' },
+        { date: '2019-12', value: '7158', goal: '7554', country: 'Germany' },
+        { date: '2019-12', value: '9866', goal: '6781', country: 'Spain' },
+        { date: '2020-01', value: '4737', goal: '4623', country: 'Finland' },
+        { date: '2020-01', value: '3654', goal: '3338', country: 'Denmark' },
+        { date: '2020-01', value: '7840', goal: '5550', country: 'Germany' },
+        { date: '2020-01', value: '4268', goal: '5509', country: 'Spain' }
       ]);
   });
 });

@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartWidget component Should render component 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className={undefined}
+>
+    <button
+        className={undefined}
+        onClick={[Function]}
+    >
+        Show cumulitive
+    </button>
+    <h3
+        className={undefined}
+    >
+        Values per month 2019 - 2020
+    </h3>
+    <LineChart
+        barCategoryGap="10%"
+        barGap={4}
+        data={Array []}
+        height={400}
+        layout="horizontal"
+        margin={
+            Object {
+                "bottom": 5,
+                "left": 0,
+                "right": 20,
+                "top": 5,
+              }
+        }
+        reverseStackOrder={false}
+        stackOffset="none"
+        width={800}
+    >
+        <Line
+            activeDot={true}
+            animateNewValues={true}
+            animationBegin={0}
+            animationDuration={1500}
+            animationEasing="ease"
+            connectNulls={false}
+            dataKey="value"
+            dot={true}
+            fill="#fff"
+            hide={false}
+            isAnimationActive={true}
+            legendType="line"
+            onAnimationEnd={[Function]}
+            onAnimationStart={[Function]}
+            points={Array []}
+            stroke="#8884d8"
+            strokeWidth={1}
+            type="monotone"
+            xAxisId={0}
+            yAxisId={0}
+        />
+        <CartesianGrid
+            fill="none"
+            horizontal={true}
+            horizontalFill={Array []}
+            horizontalPoints={Array []}
+            stroke="#ccc"
+            strokeDasharray="5 5"
+            vertical={true}
+            verticalFill={Array []}
+            verticalPoints={Array []}
+        />
+        <XAxis
+            allowDataOverflow={false}
+            allowDecimals={true}
+            allowDuplicatedCategory={true}
+            dataKey="date"
+            domain={
+                Array [
+                    0,
+                    "auto",
+                  ]
+            }
+            height={30}
+            hide={false}
+            mirror={false}
+            orientation="bottom"
+            padding={
+                Object {
+                    "left": 0,
+                    "right": 0,
+                  }
+            }
+            reversed={false}
+            scale="auto"
+            tickCount={5}
+            type="category"
+            width={0}
+            xAxisId={0}
+        />
+        <YAxis
+            allowDataOverflow={false}
+            allowDecimals={true}
+            allowDuplicatedCategory={true}
+            domain={
+                Array [
+                    0,
+                    "auto",
+                  ]
+            }
+            height={0}
+            hide={false}
+            mirror={false}
+            orientation="left"
+            padding={
+                Object {
+                    "bottom": 0,
+                    "top": 0,
+                  }
+            }
+            reversed={false}
+            scale="auto"
+            tickCount={5}
+            type="number"
+            width={60}
+            yAxisId={0}
+        />
+        <Tooltip
+            active={false}
+            allowEscapeViewBox={
+                Object {
+                    "x": false,
+                    "y": false,
+                  }
+            }
+            animationDuration={400}
+            animationEasing="ease"
+            contentStyle={Object {}}
+            coordinate={
+                Object {
+                    "x": 0,
+                    "y": 0,
+                  }
+            }
+            cursor={true}
+            cursorStyle={Object {}}
+            filterNull={true}
+            isAnimationActive={true}
+            itemStyle={Object {}}
+            labelStyle={Object {}}
+            offset={10}
+            separator=" : "
+            useTranslate3d={false}
+            viewBox={
+                Object {
+                    "x1": 0,
+                    "x2": 0,
+                    "y1": 0,
+                    "y2": 0,
+                  }
+            }
+            wrapperStyle={Object {}}
+        />
+    </LineChart>
+</div>,
+  "nodes": Array [
+    <div
+      className={undefined}
+>
+      <button
+            className={undefined}
+            onClick={[Function]}
+      >
+            Show cumulitive
+      </button>
+      <h3
+            className={undefined}
+      >
+            Values per month 2019 - 2020
+      </h3>
+      <LineChart
+            barCategoryGap="10%"
+            barGap={4}
+            data={Array []}
+            height={400}
+            layout="horizontal"
+            margin={
+                  Object {
+                        "bottom": 5,
+                        "left": 0,
+                        "right": 20,
+                        "top": 5,
+                      }
+            }
+            reverseStackOrder={false}
+            stackOffset="none"
+            width={800}
+      >
+            <Line
+                  activeDot={true}
+                  animateNewValues={true}
+                  animationBegin={0}
+                  animationDuration={1500}
+                  animationEasing="ease"
+                  connectNulls={false}
+                  dataKey="value"
+                  dot={true}
+                  fill="#fff"
+                  hide={false}
+                  isAnimationActive={true}
+                  legendType="line"
+                  onAnimationEnd={[Function]}
+                  onAnimationStart={[Function]}
+                  points={Array []}
+                  stroke="#8884d8"
+                  strokeWidth={1}
+                  type="monotone"
+                  xAxisId={0}
+                  yAxisId={0}
+            />
+            <CartesianGrid
+                  fill="none"
+                  horizontal={true}
+                  horizontalFill={Array []}
+                  horizontalPoints={Array []}
+                  stroke="#ccc"
+                  strokeDasharray="5 5"
+                  vertical={true}
+                  verticalFill={Array []}
+                  verticalPoints={Array []}
+            />
+            <XAxis
+                  allowDataOverflow={false}
+                  allowDecimals={true}
+                  allowDuplicatedCategory={true}
+                  dataKey="date"
+                  domain={
+                        Array [
+                              0,
+                              "auto",
+                            ]
+                  }
+                  height={30}
+                  hide={false}
+                  mirror={false}
+                  orientation="bottom"
+                  padding={
+                        Object {
+                              "left": 0,
+                              "right": 0,
+                            }
+                  }
+                  reversed={false}
+                  scale="auto"
+                  tickCount={5}
+                  type="category"
+                  width={0}
+                  xAxisId={0}
+            />
+            <YAxis
+                  allowDataOverflow={false}
+                  allowDecimals={true}
+                  allowDuplicatedCategory={true}
+                  domain={
+                        Array [
+                              0,
+                              "auto",
+                            ]
+                  }
+                  height={0}
+                  hide={false}
+                  mirror={false}
+                  orientation="left"
+                  padding={
+                        Object {
+                              "bottom": 0,
+                              "top": 0,
+                            }
+                  }
+                  reversed={false}
+                  scale="auto"
+                  tickCount={5}
+                  type="number"
+                  width={60}
+                  yAxisId={0}
+            />
+            <Tooltip
+                  active={false}
+                  allowEscapeViewBox={
+                        Object {
+                              "x": false,
+                              "y": false,
+                            }
+                  }
+                  animationDuration={400}
+                  animationEasing="ease"
+                  contentStyle={Object {}}
+                  coordinate={
+                        Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                  }
+                  cursor={true}
+                  cursorStyle={Object {}}
+                  filterNull={true}
+                  isAnimationActive={true}
+                  itemStyle={Object {}}
+                  labelStyle={Object {}}
+                  offset={10}
+                  separator=" : "
+                  useTranslate3d={false}
+                  viewBox={
+                        Object {
+                              "x1": 0,
+                              "x2": 0,
+                              "y1": 0,
+                              "y2": 0,
+                            }
+                  }
+                  wrapperStyle={Object {}}
+            />
+      </LineChart>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Chart />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Chart {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "countCumulitive": [Function],
+        "handleToggle": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "chartData": Array [],
+          "chartDataThisYear": Array [],
+          "showCumulitive": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className={undefined}
+>
+          <button
+                    className={undefined}
+                    onClick={[Function]}
+          >
+                    Show cumulitive
+          </button>
+          <h3
+                    className={undefined}
+          >
+                    Values per month 2019 - 2020
+          </h3>
+          <LineChart
+                    barCategoryGap="10%"
+                    barGap={4}
+                    data={Array []}
+                    height={400}
+                    layout="horizontal"
+                    margin={
+                              Object {
+                                        "bottom": 5,
+                                        "left": 0,
+                                        "right": 20,
+                                        "top": 5,
+                                      }
+                    }
+                    reverseStackOrder={false}
+                    stackOffset="none"
+                    width={800}
+          >
+                    <Line
+                              activeDot={true}
+                              animateNewValues={true}
+                              animationBegin={0}
+                              animationDuration={1500}
+                              animationEasing="ease"
+                              connectNulls={false}
+                              dataKey="value"
+                              dot={true}
+                              fill="#fff"
+                              hide={false}
+                              isAnimationActive={true}
+                              legendType="line"
+                              onAnimationEnd={[Function]}
+                              onAnimationStart={[Function]}
+                              points={Array []}
+                              stroke="#8884d8"
+                              strokeWidth={1}
+                              type="monotone"
+                              xAxisId={0}
+                              yAxisId={0}
+                    />
+                    <CartesianGrid
+                              fill="none"
+                              horizontal={true}
+                              horizontalFill={Array []}
+                              horizontalPoints={Array []}
+                              stroke="#ccc"
+                              strokeDasharray="5 5"
+                              vertical={true}
+                              verticalFill={Array []}
+                              verticalPoints={Array []}
+                    />
+                    <XAxis
+                              allowDataOverflow={false}
+                              allowDecimals={true}
+                              allowDuplicatedCategory={true}
+                              dataKey="date"
+                              domain={
+                                        Array [
+                                                  0,
+                                                  "auto",
+                                                ]
+                              }
+                              height={30}
+                              hide={false}
+                              mirror={false}
+                              orientation="bottom"
+                              padding={
+                                        Object {
+                                                  "left": 0,
+                                                  "right": 0,
+                                                }
+                              }
+                              reversed={false}
+                              scale="auto"
+                              tickCount={5}
+                              type="category"
+                              width={0}
+                              xAxisId={0}
+                    />
+                    <YAxis
+                              allowDataOverflow={false}
+                              allowDecimals={true}
+                              allowDuplicatedCategory={true}
+                              domain={
+                                        Array [
+                                                  0,
+                                                  "auto",
+                                                ]
+                              }
+                              height={0}
+                              hide={false}
+                              mirror={false}
+                              orientation="left"
+                              padding={
+                                        Object {
+                                                  "bottom": 0,
+                                                  "top": 0,
+                                                }
+                              }
+                              reversed={false}
+                              scale="auto"
+                              tickCount={5}
+                              type="number"
+                              width={60}
+                              yAxisId={0}
+                    />
+                    <Tooltip
+                              active={false}
+                              allowEscapeViewBox={
+                                        Object {
+                                                  "x": false,
+                                                  "y": false,
+                                                }
+                              }
+                              animationDuration={400}
+                              animationEasing="ease"
+                              contentStyle={Object {}}
+                              coordinate={
+                                        Object {
+                                                  "x": 0,
+                                                  "y": 0,
+                                                }
+                              }
+                              cursor={true}
+                              cursorStyle={Object {}}
+                              filterNull={true}
+                              isAnimationActive={true}
+                              itemStyle={Object {}}
+                              labelStyle={Object {}}
+                              offset={10}
+                              separator=" : "
+                              useTranslate3d={false}
+                              viewBox={
+                                        Object {
+                                                  "x1": 0,
+                                                  "x2": 0,
+                                                  "y1": 0,
+                                                  "y2": 0,
+                                                }
+                              }
+                              wrapperStyle={Object {}}
+                    />
+          </LineChart>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className={undefined}
+>
+          <button
+                    className={undefined}
+                    onClick={[Function]}
+          >
+                    Show cumulitive
+          </button>
+          <h3
+                    className={undefined}
+          >
+                    Values per month 2019 - 2020
+          </h3>
+          <LineChart
+                    barCategoryGap="10%"
+                    barGap={4}
+                    data={Array []}
+                    height={400}
+                    layout="horizontal"
+                    margin={
+                              Object {
+                                        "bottom": 5,
+                                        "left": 0,
+                                        "right": 20,
+                                        "top": 5,
+                                      }
+                    }
+                    reverseStackOrder={false}
+                    stackOffset="none"
+                    width={800}
+          >
+                    <Line
+                              activeDot={true}
+                              animateNewValues={true}
+                              animationBegin={0}
+                              animationDuration={1500}
+                              animationEasing="ease"
+                              connectNulls={false}
+                              dataKey="value"
+                              dot={true}
+                              fill="#fff"
+                              hide={false}
+                              isAnimationActive={true}
+                              legendType="line"
+                              onAnimationEnd={[Function]}
+                              onAnimationStart={[Function]}
+                              points={Array []}
+                              stroke="#8884d8"
+                              strokeWidth={1}
+                              type="monotone"
+                              xAxisId={0}
+                              yAxisId={0}
+                    />
+                    <CartesianGrid
+                              fill="none"
+                              horizontal={true}
+                              horizontalFill={Array []}
+                              horizontalPoints={Array []}
+                              stroke="#ccc"
+                              strokeDasharray="5 5"
+                              vertical={true}
+                              verticalFill={Array []}
+                              verticalPoints={Array []}
+                    />
+                    <XAxis
+                              allowDataOverflow={false}
+                              allowDecimals={true}
+                              allowDuplicatedCategory={true}
+                              dataKey="date"
+                              domain={
+                                        Array [
+                                                  0,
+                                                  "auto",
+                                                ]
+                              }
+                              height={30}
+                              hide={false}
+                              mirror={false}
+                              orientation="bottom"
+                              padding={
+                                        Object {
+                                                  "left": 0,
+                                                  "right": 0,
+                                                }
+                              }
+                              reversed={false}
+                              scale="auto"
+                              tickCount={5}
+                              type="category"
+                              width={0}
+                              xAxisId={0}
+                    />
+                    <YAxis
+                              allowDataOverflow={false}
+                              allowDecimals={true}
+                              allowDuplicatedCategory={true}
+                              domain={
+                                        Array [
+                                                  0,
+                                                  "auto",
+                                                ]
+                              }
+                              height={0}
+                              hide={false}
+                              mirror={false}
+                              orientation="left"
+                              padding={
+                                        Object {
+                                                  "bottom": 0,
+                                                  "top": 0,
+                                                }
+                              }
+                              reversed={false}
+                              scale="auto"
+                              tickCount={5}
+                              type="number"
+                              width={60}
+                              yAxisId={0}
+                    />
+                    <Tooltip
+                              active={false}
+                              allowEscapeViewBox={
+                                        Object {
+                                                  "x": false,
+                                                  "y": false,
+                                                }
+                              }
+                              animationDuration={400}
+                              animationEasing="ease"
+                              contentStyle={Object {}}
+                              coordinate={
+                                        Object {
+                                                  "x": 0,
+                                                  "y": 0,
+                                                }
+                              }
+                              cursor={true}
+                              cursorStyle={Object {}}
+                              filterNull={true}
+                              isAnimationActive={true}
+                              itemStyle={Object {}}
+                              labelStyle={Object {}}
+                              offset={10}
+                              separator=" : "
+                              useTranslate3d={false}
+                              viewBox={
+                                        Object {
+                                                  "x1": 0,
+                                                  "x2": 0,
+                                                  "y1": 0,
+                                                  "y2": 0,
+                                                }
+                              }
+                              wrapperStyle={Object {}}
+                    />
+          </LineChart>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Chart />,
+}
+`;
