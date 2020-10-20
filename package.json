@@ -16,7 +16,7 @@
   "dependencies": {
     "cors": "2.8.4",
     "express": "4.15.4",
-    "lodash": "4.17.4",
+    "lodash": "4.17.20",
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "winston": "2.3.1"
