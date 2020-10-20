@@ -34,7 +34,7 @@
     "jsonfile": "3.0.1",
     "less": "2.7.2",
     "less-loader": "4.0.5",
-    "moment": "2.18.1",
+    "moment": "2.29.1",
     "nodemon": "1.11.0",
     "react-test-renderer": "15.6.1",
     "style-loader": "0.18.2",
